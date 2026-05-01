@@ -2,11 +2,13 @@
 
 # 🧬 Chloroplast Genome Assembly Optimization
 
+
 ## 📌 Overview
 
 This project focuses on the **assembly of chloroplast genomes from short-read sequencing data**, with the goal of identifying optimal parameters to improve assembly quality.
 
 The study uses *Helianthus niveus* and *Helianthus praecox* as test cases and explores how **coverage, k-mer size, assembly tools, and reference genome selection** affect the final assembly.
+
 
 ## 🎯 Objectives
 
@@ -14,6 +16,7 @@ The study uses *Helianthus niveus* and *Helianthus praecox* as test cases and ex
 * Optimize assembly parameters (coverage and k-mer)
 * Compare different assembly tools
 * Evaluate the impact of evolutionary distance of the reference genome
+  
 
 ## 🧪 Dataset
 
@@ -25,6 +28,7 @@ Sequencing data were obtained from the SRA repository:
 Reference genome:
 
 * *Helianthus debilis* (chloroplast genome)
+  
 
 ## ⚙️ Pipeline
 
@@ -56,6 +60,7 @@ The workflow consists of the following steps:
 
    * `ABySS`
    * `SOAPdenovo`
+     
 
 ## 🔬 Optimization Strategy
 
