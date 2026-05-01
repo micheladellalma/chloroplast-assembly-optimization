@@ -8,16 +8,12 @@ This project focuses on the **assembly of chloroplast genomes from short-read se
 
 The study uses *Helianthus niveus* and *Helianthus praecox* as test cases and explores how **coverage, k-mer size, assembly tools, and reference genome selection** affect the final assembly.
 
----
-
 ## 🎯 Objectives
 
 * Assemble chloroplast genomes from Illumina short reads
 * Optimize assembly parameters (coverage and k-mer)
 * Compare different assembly tools
 * Evaluate the impact of evolutionary distance of the reference genome
-
----
 
 ## 🧪 Dataset
 
@@ -29,8 +25,6 @@ Sequencing data were obtained from the SRA repository:
 Reference genome:
 
 * *Helianthus debilis* (chloroplast genome)
-
----
 
 ## ⚙️ Pipeline
 
@@ -63,8 +57,6 @@ The workflow consists of the following steps:
    * `ABySS`
    * `SOAPdenovo`
 
----
-
 ## 🔬 Optimization Strategy
 
 ### Parameters tested:
@@ -80,8 +72,6 @@ The workflow consists of the following steps:
 * N50
 * Coverage
 
----
-
 ## 📊 Results
 
 * Initial assemblies were fragmented
@@ -91,8 +81,7 @@ The workflow consists of the following steps:
   * ~151 kb total length
   * 2 contigs
 * Choice of a **phylogenetically close reference genome** improved mapping and assembly quality
-
----
+  
 
 ## 📈 Key Insights
 
@@ -100,8 +89,7 @@ The workflow consists of the following steps:
 * Coverage must be balanced (too high/low worsens assembly)
 * Different assemblers require different parameter tuning
 * Reference genome selection is critical
-
----
+  
 
 ## 📁 Project Structure
 
@@ -114,7 +102,7 @@ The workflow consists of the following steps:
 └── README.md
 ```
 
----
+
 
 ## 🚀 Future Improvements
 
@@ -123,13 +111,11 @@ The workflow consists of the following steps:
 * Visualization of assembly graphs
 * Extension to additional species
 
----
 
 ## 📚 Reference
 
 See the full report in `/docs`.
 
----
 
 ## 👩‍🔬 Author
 
